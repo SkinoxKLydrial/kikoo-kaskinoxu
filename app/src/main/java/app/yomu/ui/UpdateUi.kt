@@ -61,7 +61,7 @@ fun UpdateDialog(release: Release, onDismiss: () -> Unit) {
             TextButton(enabled = progress == null, onClick = {
                 if (!Updater.canInstall(ctx)) {
                     // Android demande d'autoriser l'appli à installer des mises à jour (une seule fois).
-                    error = "Autorise Yomu à installer des applis, puis appuie à nouveau sur Installer."
+                    error = "Autorise Kikoo Kaskinoxu à installer des applis, puis appuie à nouveau sur Installer."
                     Updater.openInstallPermission(ctx)
                 } else {
                     scope.launch {

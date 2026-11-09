@@ -44,12 +44,12 @@ jobs:
         run: gradle assembleRelease --no-daemon --stacktrace
 
       - name: Renommer l'APK
-        run: cp app/build/outputs/apk/release/app-release.apk "yomu-1.0.${{ github.run_number }}.apk"
+        run: cp app/build/outputs/apk/release/app-release.apk "kikoo-kaskinoxu-1.0.${{ github.run_number }}.apk"
 
       - name: Publier la version
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v1.0.${{ github.run_number }}
-          name: Yomu 1.0.${{ github.run_number }}
+          name: Kikoo Kaskinoxu 1.0.${{ github.run_number }}
           body: ${{ github.event.head_commit.message }}
-          files: yomu-*.apk
+          files: kikoo-kaskinoxu-*.apk

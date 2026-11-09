@@ -22,7 +22,7 @@ object Net {
         .addInterceptor { chain ->
             chain.proceed(
                 chain.request().newBuilder()
-                    .header("User-Agent", "Yomu/${BuildConfig.VERSION_NAME} (Android)")
+                    .header("User-Agent", "KikooKaskinoxu/${BuildConfig.VERSION_NAME} (Android)")
                     .build()
             )
         }

@@ -1,4 +1,4 @@
-# Yomu
+# Kikoo Kaskinoxu
 
 Lecteur de mangas pour Android (Kotlin + Jetpack Compose), inspiré de Mihon.
 
@@ -14,7 +14,7 @@ Lecteur de mangas pour Android (Kotlin + Jetpack Compose), inspiré de Mihon.
 ## Comment ça se met à jour
 
 À chaque `git push` sur `main`, GitHub Actions compile l'APK, le signe avec ta clé et le publie dans **Releases** (`v1.0.<numéro>`). L'appli installée voit la nouvelle version et propose « Installer ».
-Android demande une confirmation à chaque installation (impossible de faire autrement pour une appli hors Play Store), et la première fois il faut autoriser Yomu à installer des applis.
+Android demande une confirmation à chaque installation (impossible de faire autrement pour une appli hors Play Store), et la première fois il faut autoriser Kikoo Kaskinoxu à installer des applis.
 
 ## Secrets GitHub nécessaires
 

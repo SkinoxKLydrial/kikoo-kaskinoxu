@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Yomu"
+rootProject.name = "Kikoo Kaskinoxu"
 include(":app")
